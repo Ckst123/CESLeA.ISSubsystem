@@ -1,8 +1,8 @@
 # compute-vad --config=conf/vad.conf scp:/home/mi/PycharmProjects/CESLeA/Speaker_recog_final/online/data/test/split1/1/feats.scp ark,scp:/home/mi/PycharmProjects/CESLeA/Speaker_recog_final/online/mfcc/vad_test.1.ark,/home/mi/PycharmProjects/CESLeA/Speaker_recog_final/online/mfcc/vad_test.1.scp 
-# Started at Fri Dec  4 22:56:23 KST 2020
+# Started at Thu Dec 10 12:41:41 KST 2020
 #
 compute-vad --config=conf/vad.conf scp:/home/mi/PycharmProjects/CESLeA/Speaker_recog_final/online/data/test/split1/1/feats.scp ark,scp:/home/mi/PycharmProjects/CESLeA/Speaker_recog_final/online/mfcc/vad_test.1.ark,/home/mi/PycharmProjects/CESLeA/Speaker_recog_final/online/mfcc/vad_test.1.scp 
 LOG (compute-vad[5.5.598~1-611ff]:main():compute-vad.cc:95) Applied energy based voice activity detection; processed 1 utterances successfully; 0 had empty features, and 0 were completely unvoiced.
-LOG (compute-vad[5.5.598~1-611ff]:main():compute-vad.cc:99) Proportion of voiced frames was 1 over 54 frames.
+LOG (compute-vad[5.5.598~1-611ff]:main():compute-vad.cc:99) Proportion of voiced frames was 0.527778 over 72 frames.
 # Accounting: time=0 threads=1
-# Ended (code 0) at Fri Dec  4 22:56:23 KST 2020, elapsed time 0 seconds
+# Ended (code 0) at Thu Dec 10 12:41:42 KST 2020, elapsed time 0 seconds

@@ -33,7 +33,7 @@ stage=$1
 
 if [ $stage = train ]; then
   rm -rf $data/spkrs
-  make_data_all.pl $datadir $data/spkrs
+  make_data_all.pl $datadir/train $data/spkrs
   # Make MFCCs and compute the energy-based VAD for each dataset
   for name in spkrs; do
     steps/make_mfcc.sh --write-utt2num-frames true \

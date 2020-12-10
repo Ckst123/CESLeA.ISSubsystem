@@ -1,8 +1,8 @@
 # nnet/wrap/extract_wrapper.sh --gpuid -1 --env tf_cpu --min-chunk-size 25 --chunk-size 10000 --normalize false --node output /home/mi/PycharmProjects/CESLeA/Speaker_recog_final/online/basemodel/xvector_nnet_pretrain "ark:apply-cmvn-sliding --norm-vars=false --center=true --cmn-window=300 scp:/home/mi/PycharmProjects/CESLeA/Speaker_recog_final/online/data/spkrs/split1/1/feats.scp ark:- | select-voiced-frames ark:- scp,s,cs:/home/mi/PycharmProjects/CESLeA/Speaker_recog_final/online/data/spkrs/split1/1/vad.scp ark:- |" "ark:| copy-vector ark:- ark,scp:/home/mi/PycharmProjects/CESLeA/Speaker_recog_final/online/basemodel/xvector_nnet_pretrain/xvectors/xvector.1.ark,/home/mi/PycharmProjects/CESLeA/Speaker_recog_final/online/basemodel/xvector_nnet_pretrain/xvectors/xvector.1.scp" 
-# Started at Fri Dec  4 22:10:52 KST 2020
+# Started at Thu Dec 10 12:41:20 KST 2020
 #
 INFO:tensorflow:Extract embedding from output
-2020-12-04 22:10:53.290551: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-12-10 12:41:21.154534: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
 INFO:tensorflow:Extract embedding from node output
 WARNING:tensorflow:From /media/mi/data/PycharmProjects/CESLeA/Speaker_recog_final/extractor/model/pooling.py:23: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
 Instructions for updating:
@@ -342,8 +342,8 @@ INFO:tensorflow:[INFO] Key yh-2018_11_23_03_58_24_09 length 69.
 INFO:tensorflow:[INFO] Key yh-2018_11_23_03_58_24_10 length 70.
 INFO:tensorflow:[INFO] Key yh-2018_11_23_03_58_24_11 length 72.
 INFO:tensorflow:[INFO] Key yh-2018_11_23_03_58_24_12 length 73.
-LOG (apply-cmvn-sliding[5.5.598~1-611ff]:main():apply-cmvn-sliding.cc:75) Applied sliding-window cepstral mean normalization to 342 utterances, 0 had errors.
 INFO:tensorflow:[INFO] Key yhs-2018_11_23_03_34_06_00 length 73.
+LOG (apply-cmvn-sliding[5.5.598~1-611ff]:main():apply-cmvn-sliding.cc:75) Applied sliding-window cepstral mean normalization to 342 utterances, 0 had errors.
 INFO:tensorflow:[INFO] Key yhs-2018_11_23_03_34_06_01 length 69.
 INFO:tensorflow:[INFO] Key yhs-2018_11_23_03_34_06_02 length 72.
 INFO:tensorflow:[INFO] Key yhs-2018_11_23_03_34_06_03 length 85.
@@ -359,4 +359,4 @@ INFO:tensorflow:[INFO] Key yhs-2018_11_23_03_34_06_11 length 63.
 INFO:tensorflow:[INFO] Key yhs-2018_11_23_03_34_06_12 length 68.
 LOG (copy-vector[5.5.598~1-611ff]:main():copy-vector.cc:90) Copied 342 vectors.
 # Accounting: time=9 threads=1
-# Ended (code 0) at Fri Dec  4 22:11:01 KST 2020, elapsed time 9 seconds
+# Ended (code 0) at Thu Dec 10 12:41:29 KST 2020, elapsed time 9 seconds

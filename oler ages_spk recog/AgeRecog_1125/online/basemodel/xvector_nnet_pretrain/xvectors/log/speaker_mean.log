@@ -1,8 +1,0 @@
-# ivector-mean ark:/home/craftkim/PycharmProjects/CESLeA.ISSubsystem-dev/AgeRecog/online/data/spkrs/spk2utt scp:/home/craftkim/PycharmProjects/CESLeA.ISSubsystem-dev/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/xvector.scp ark,scp:/home/craftkim/PycharmProjects/CESLeA.ISSubsystem-dev/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.ark,/home/craftkim/PycharmProjects/CESLeA.ISSubsystem-dev/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.scp ark,t:/home/craftkim/PycharmProjects/CESLeA.ISSubsystem-dev/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/num_utts.ark 
-# Started at Tue Nov 24 16:16:51 KST 2020
-#
-ivector-mean ark:/home/craftkim/PycharmProjects/CESLeA.ISSubsystem-dev/AgeRecog/online/data/spkrs/spk2utt scp:/home/craftkim/PycharmProjects/CESLeA.ISSubsystem-dev/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/xvector.scp ark,scp:/home/craftkim/PycharmProjects/CESLeA.ISSubsystem-dev/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.ark,/home/craftkim/PycharmProjects/CESLeA.ISSubsystem-dev/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.scp ark,t:/home/craftkim/PycharmProjects/CESLeA.ISSubsystem-dev/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/num_utts.ark 
-LOG (ivector-mean[5.5]:main():ivector-mean.cc:134) Computed mean of 400 speakers (0 with no utterances), consisting of 36343 utterances (0 absent from input).
-LOG (ivector-mean[5.5]:main():ivector-mean.cc:145) Norm of mean of speakers is 13.1106, root-mean-square speaker-iVector length divided by sqrt(dim) is 1.04539
-# Accounting: time=0 threads=1
-# Ended (code 0) at Tue Nov 24 16:16:51 KST 2020, elapsed time 0 seconds

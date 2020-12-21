@@ -1,1 +1,0 @@
-echo '{"access_token": "[USER ACCESS TOKEN]", "mode":"register", "group":"g1", "speaker": "s1", "audio_data": "'"$(base64 data.zip)"'"}'

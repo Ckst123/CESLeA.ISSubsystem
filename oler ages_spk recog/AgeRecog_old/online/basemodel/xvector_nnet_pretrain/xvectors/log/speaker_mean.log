@@ -1,8 +1,0 @@
-# ivector-mean ark:/home/mi/PycharmProjects/CESLeA/AgeRecog/online/data/spkrs/spk2utt scp:/home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/xvector.scp ark,scp:/home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.ark,/home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.scp ark,t:/home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/num_utts.ark 
-# Started at Mon Nov 16 08:49:45 KST 2020
-#
-ivector-mean ark:/home/mi/PycharmProjects/CESLeA/AgeRecog/online/data/spkrs/spk2utt scp:/home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/xvector.scp ark,scp:/home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.ark,/home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.scp ark,t:/home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/num_utts.ark 
-LOG (ivector-mean[5.5.598~1-611ff]:main():ivector-mean.cc:134) Computed mean of 2 speakers (0 with no utterances), consisting of 200 utterances (0 absent from input).
-LOG (ivector-mean[5.5.598~1-611ff]:main():ivector-mean.cc:145) Norm of mean of speakers is 13.4614, root-mean-square speaker-iVector length divided by sqrt(dim) is 0.694193
-# Accounting: time=0 threads=1
-# Ended (code 0) at Mon Nov 16 08:49:45 KST 2020, elapsed time 0 seconds

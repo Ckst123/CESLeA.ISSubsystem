@@ -1,8 +1,0 @@
-# compute-vad --config=conf/vad.conf scp:/home/mi/PycharmProjects/CESLeA/AgeRecog/online/data/spkrs/split1/1/feats.scp ark,scp:/home/mi/PycharmProjects/CESLeA/AgeRecog/online/mfcc/vad_spkrs.1.ark,/home/mi/PycharmProjects/CESLeA/AgeRecog/online/mfcc/vad_spkrs.1.scp 
-# Started at Tue Nov 24 11:14:46 KST 2020
-#
-compute-vad --config=conf/vad.conf scp:/home/mi/PycharmProjects/CESLeA/AgeRecog/online/data/spkrs/split1/1/feats.scp ark,scp:/home/mi/PycharmProjects/CESLeA/AgeRecog/online/mfcc/vad_spkrs.1.ark,/home/mi/PycharmProjects/CESLeA/AgeRecog/online/mfcc/vad_spkrs.1.scp 
-LOG (compute-vad[5.5.598~1-611ff]:main():compute-vad.cc:95) Applied energy based voice activity detection; processed 270 utterances successfully; 0 had empty features, and 0 were completely unvoiced.
-LOG (compute-vad[5.5.598~1-611ff]:main():compute-vad.cc:99) Proportion of voiced frames was 0.670036 over 102599 frames.
-# Accounting: time=0 threads=1
-# Ended (code 0) at Tue Nov 24 11:14:46 KST 2020, elapsed time 0 seconds

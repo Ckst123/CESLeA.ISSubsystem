@@ -1,6 +1,0 @@
-adult_f /home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.ark:8
-adult_m /home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.ark:2074
-kid_f /home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.ark:4138
-kid_m /home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.ark:6202
-senior_f /home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.ark:8269
-senior_m /home/mi/PycharmProjects/CESLeA/AgeRecog/online/basemodel/xvector_nnet_pretrain/xvectors/spk_xvector.ark:10336

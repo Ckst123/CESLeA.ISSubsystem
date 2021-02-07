@@ -11,9 +11,41 @@
 * 학습을 하기 위한 audio가 필요합니다. (16kHz, 16bit pcm .wav file)
 
 ## 설치
-* 상위 경로의 "requirements.txt" 를 python 환경에서 pip로 설치합니다.
-* "server.py" 에서 변수 "pkl_data_file", "ckpt_path" 에 옳바른 경로를 지정합니다.
-* "server.py" 에서 변수 "port", "server" 의 생성자 변수 "ip" 옳바른 값을 지정합니다.
+* (선택)virtualenv를 이용하여 python 가상환경을 만듭니다.
+```
+$ virtualenv -p python3 venv
+$ source venv/bin/activate
+```
+* 필요한 패키지를 설치합니다.
+```
+$ pip install -r requirements.txt
+```
+* Data folder를 구성합니다.
+```
+Data
+ ㄴtrain (학습 데이터)
+  ㄴkang (화자1)
+   ㄴkang1.wav
+   ㄴkang2.wav
+   ㄴ…
+  ㄴkim (화자2)
+   ㄴkim1.wav
+   ㄴkim2.wav
+   ㄴ…
+  ㄴ…
+ ㄴtest_offline (offline test data)
+  ㄴkang
+   ㄴkang1.wav
+   ㄴkang2.wav
+   ㄴ…
+  ㄴkim
+   ㄴkim1.wav
+   ㄴkim2.wav
+   ㄴ…
+  ㄴ…
+ ㄴtest (실제 환경에서 인식 대상)
+  ㄴ test.wav(위치, 이름 고정. 실제 인식할 대상)
+```
 
 ## 사용법
 * python으로 "server.py" 를 실행합니다.

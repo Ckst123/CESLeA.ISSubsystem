@@ -4,9 +4,9 @@
 * 이 메뉴얼은 세실리아의 음성 통합 서브시스템 중 화자인식의 사용자 메뉴얼입니다.
 
 ## 사전작업
-* Ubuntu 18.04 에서 작동합니다.
+* NVIDIA GPU가 설치 된 Ubuntu 18.04 에서 작동합니다.
 * Python 3.x 에서 작동합니다.
-* 학습 데이터를 필요로 합니다. (16kHz, 16bit PCM wav file)
+* 사전에 학습이 필요합니다.
 
 ## 설치
 * (선택)virtualenv를 이용하여 python 가상환경을 만듭니다.
@@ -18,7 +18,6 @@ $ source venv/bin/activate
 ```
 $ pip install -r requirements.txt
 ```
-* (추가 예정)
 
 ## 사용법
 * (추가 예정)

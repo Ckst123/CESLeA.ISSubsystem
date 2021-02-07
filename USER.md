@@ -20,6 +20,11 @@ $ pip install -r requirements.txt
 ```
 
 ## 사용법
+* extractor 실행 (무한 루프 도는 채로 둠)
+```
+$ cd Speaker_Recog_final/online
+$ ./run_extractor.sh 
+```
 * run_spk_recog_nopost.py 실행
 ```
 $ python run_spk_recog_nopost.py

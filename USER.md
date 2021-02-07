@@ -20,7 +20,12 @@ $ pip install -r requirements.txt
 ```
 
 ## 사용법
-* (추가 예정)
+* run_spk_recog_nopost.py 실행
+```
+$ python run_spk_recog_nopost.py
+```
+* GUI 창의 시작 버튼을 클릭
+* 마이크에 임의의 말을 하여 결과 확인
 
 ## 문제해결
 * 문제가 발생시 프로그램을 종료하고 다시 실행합니다.

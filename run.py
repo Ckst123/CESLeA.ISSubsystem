@@ -43,10 +43,10 @@ if __name__ == '__main__':
     llsollu_ans2 = asr(data)
 
     ans1 = google_stt('testo1.wav')
-    ans3 = google_stt('testo3.wav')
+    ans3 = google_stt('testo2.wav')
 
     b1 = read_wave('testo1.wav')[0]
-    b2 = read_wave('testo3.wav')[0]
+    b2 = read_wave('testo2.wav')[0]
 
     D = np.frombuffer(b1, dtype=np.int16)
     data = librosa.core.resample(1.0 * D, orig_sr=16000, target_sr=8000).astype(dtype=np.int16).tobytes()
